@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://THAINGUYEN:1433;database=Test123;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: 123456a@
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    database: SQL_SERVER
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8686
+
+logging:
+  level:
+    root: INFO
